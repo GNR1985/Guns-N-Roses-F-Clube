@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+ 
+ height: 100vh;
+  
+  font-color: yellow;
+  font-family: 'Roboto', sans-serif; /* 'sans-serif' não precisa de aspas */
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Arial";
+	gap:16px;
+    
+}
+.photo{
+	 width: 100%;
+	 height: 100vh;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+	gap:16px;
+}
+.photo img{
+	height: 80px;
+	width: 80x;
+}

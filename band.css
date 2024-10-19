@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Correção do box-size */
+}
+body {
+    background-image: url("vermelho.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.text {
+	
+  font-family: "Bebas Neue", sans-serif;
+ 
+
+    display: block; /* Permite o fluxo natural do texto */
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Compatível com navegadores modernos */
+    margin: 40px 20px auto;
+    padding: 40px;
+    max-width: 90%; /* Ajusta para não ocupar mais que 90% da tela */
+    width: 100%; /* O texto vai se expandir para toda a largura disponível */
+    border-radius: 40px;
+   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve opcional */
+}
+#Axl-Rose {
+	display: flex;
+}
+
+#Slash{
+	display: flex;
+}
+#Slash img{
+height: 70px;
+	width: 70px;
+	margin: 20px;
+	
+	
+}
+#izzy{
+	display: flex;
+	
+}
+#izzy p{
+	display: flex;
+	margin: 0;
+	color: white;
+}
+#izzy img{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+	
+	
+}
+#Steven-Adler{
+	display: flex;
+}
+#Steven-Adler img{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+	
+	
+}
+#duff{
+	display: flex;
+}
+#duff img{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+	
+	
+}
+.member {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #FFD700;
+      padding-bottom: 10px;
+	  color: white;
+    }
+
+.band p{
+	font-size: 20px;
+	
+}
+.text {
+    margin-top: 2%;
+    color: ;
+    margin: 40px 20px auto;
+    padding: 40px;
+    max-width: 90%;
+    width: 100%; /* O texto agora ocupará toda a largura da tela */
+    border-radius: 40px;
+    display: block; /* Mudei para block para evitar problemas de layout */
+}
+#Axl-Rose img{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+	
+	
+}
+header{
+	
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(50deg, red, yellow);
+
+	
+	
+}
+header ul, li,a{
+	display: flex;
+	padding: 10px;
+}
+header a{
+	text-decoration: none;
+	color: red;
+transition: all 0.3s ease;
+	
+}
+header a:hover{
+  border-bottom: 5px solid red;
+
+	
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 60px; /* Aumentei a altura */
+    padding: 0 20px;
+
+    width: 100%;
+}
+
+/* Menu de navegação */
+.nav-list {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-list a:hover {
+    border-bottom: 5px solid red;
+}
+
+/* Ícone do menu (sandwich) */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+/* Botão de fechar o menu */
+.close-menu {
+    display: none;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+}
+.banda img{
+	border-radius: 20px;
+	height: 200px;
+	width: auto;
+}
+.banda {
+ 
+  margin: 20px;
+  padding: 10px;
+
+}
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex; /* Exibe o ícone do menu */
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: -3px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        z-index: 1000;
+    }
+
+    .nav-list.open {
+        display: flex;
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    .nav-list li {
+        margin: 20px 0;
+    }
+}

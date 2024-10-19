@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: yellow; 
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-lateral {
+  width: 200px;
+  background-color: #333;
+  color: white;
+}
+
+.menu-lateral ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-lateral .item-menu {
+  padding: 10px;
+}
+
+.menu-lateral .item-menu a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-lateral .item-menu a:hover {
+  background-color: #555;
+}
+
+.photo, .bolo, .band, .slash, .slash1, .slash2, .slash3, .DuffMckgan, .Duff, .duff, .dff {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.photo img, .bolo img, .band img, .fundo img, .slash img, .slash1 img, .slash2 img, .slash3 img, .DuffMckgan img, .Duff img, .duff img, .dff img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.signature {
+  background: blue;
+  border-radius: 10px 50px 10px;
+  border: solid 5px #000080;
+}
+
+.signatureS {
+  height: 190px;
+  background: #1B2631;
+  border-radius: 10px 50px 10px;
+  border: solid 5px #212F3D;
+}
+
+.signatureS img {
+  height: 200px;
+}
+
+.signatureD {
+  height: 190px;
+  background: white;
+  border-radius: 10px 50px 10px;
+  border: solid 5px #212F3D;
+}
+
+.signatureD img {
+  height: 160px;
+}
+.primeira-foto img{
+	height: 100%;
+	width: 100%;
+	
+}

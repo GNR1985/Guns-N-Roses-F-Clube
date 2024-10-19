@@ -1,0 +1,390 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial';
+}
+
+body {
+ 
+ width: 100%;
+  min-height: 100vh;
+  background-image: url("background image.jpg");
+    
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+	
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+       /* Centraliza verticalmente */
+}
+
+.Logo img {
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: 300px;
+	
+	
+}
+nav ul li {
+  list-style: none;
+  margin-bottom: 10px; 
+  
+}
+
+nav ul li a {
+  background: linear-gradient(0deg, orange, yellow);
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60px;
+  display: block; /* Isso permite que os links ocupem toda a área disponível */
+  width: 70px; /* Definir a largura desejada */
+  height: 40px; /* Definir a altura desejada */
+  position: relative; /* Para conter os elementos filhos posicionados */
+  top: 300px;
+	left: -50vh;
+	border: solid 1px red;
+}
+
+nav ul {
+  padding: 0;
+  position: absolute;
+	
+  
+}
+.nav ul li{
+	position: absolute;
+	top: 0vh;
+	left: 10vh;
+}
+.nav1 nav ul li {
+  list-style: none;
+  margin-bottom: 10px; /* Adicionado um espaço entre os itens do menu */
+}
+
+.nav1 nav ul li a {
+  background:  background: linear-gradient(0deg, orange, yellow);;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60px;
+  display: block; /* Isso permite que os links ocupem toda a área disponível */
+   width: 70px; /* Definir a largura desejada */
+  height: 40px; /* Definir a altura desejada */
+  position: relative; /* Para conter os elementos filhos posicionados */
+  top: 41.2vh;
+	left: -50.6vh;
+}
+
+nav ul {
+  padding: 0;
+  
+}
+.text{
+	 position: absolute;
+    top: 60vh;
+    left: 0;
+    display: flex;
+   padding: 50px;
+   border: solid 3px #FFFF00;
+   border-radius: 50px;
+	background: transparent;
+	backdrop-filter: blur(10px);
+	color: white;
+}
+.background video{
+	-webkit-filter: brightness(20%);
+	filter: brightness(20%);
+}
+.icon{
+  
+	height: 30px;
+	width: 30px;
+	
+	
+	
+}
+.icon li{
+	
+}
+
+
+.icon2{
+  
+	height: 30px;
+	width: 30px;
+}
+.icon3 ul {
+    list-style: none; /* Remove a bolinha dos itens da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+.icon3 li {
+    display: flex; /* Usar flexbox para facilitar o posicionamento do conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 70px; /* Definir a largura desejada */
+    height: 40px; /* Definir a altura desejada */
+    background: linear-gradient(0deg, orange, yellow);
+    padding: 6px;
+    text-align: center;
+    border-radius: 60px;
+    border: solid 1px red;
+    position: absolute;
+    
+	top: 9vh;
+	left: 1vh;
+}
+
+.icon3 a {
+    display: block; /* Isso permite que os links ocupem toda a área disponível */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.icon3 img {
+   height: 30px;
+   width: 30px; 
+}
+.icon3 ul {
+    list-style: none; /* Remove a bolinha dos itens da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+.shop li {
+    display: flex; /* Usar flexbox para facilitar o posicionamento do conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 70px; /* Definir a largura desejada */
+    height: 40px; /* Definir a altura desejada */
+    background: linear-gradient(0deg, orange, yellow);
+    padding: 6px;
+    text-align: center;
+    border-radius: 60px;
+    border: solid 1px red;
+    position: absolute;
+    
+	top: 300px;
+	left: 102.5vh;
+}
+
+.shop a {
+    display: block; /* Isso permite que os links ocupem toda a área disponível */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.shop img {
+   height: 30px;
+   width: 30px; 
+}
+.photo {
+    display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+	background: transparent;
+	backdrop-filter: blur(10px);
+	
+   
+}
+
+.photo img {
+    max-width: 100%; /* Ajusta a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.bolo{
+	  width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+	
+	
+}
+.band{
+	  width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+	
+	
+}
+.fundo img{
+	 width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.signature{
+	background: blue;
+	border-radius: 10px 50px 10px;
+	border: solid 5px #000080;
+	
+}
+.slash{
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.slash1{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.slash2{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.slash3{
+	width: 100%;
+    height: 104vh;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.signatureS{
+	height: 190px;
+	background: #1B2631;
+	border-radius: 10px 50px 10px;
+	border: solid 5px #212F3D;
+}
+.signatureS img{
+	height: 200px;
+	
+}
+.signatureD{
+	height: 190px;
+	background: white;
+	border-radius: 10px 50px 10px;
+	border: solid 5px #212F3D;
+}
+.pun{
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.DuffMckgan{
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.Duff{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.duff{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.dff{
+	width: 100%;
+    height: 104vh;
+    object-fit: cover;
+	display: flex;
+    flex-direction: row; /* Organiza os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.signatureD img{
+	height: 160px;
+	
+	
+}
